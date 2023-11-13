@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E7C2BFF052E96DB92897FE8 /* Pods_GRDB_pod_SqliteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E53FC1D7B64695FB146A60E /* Pods_GRDB_pod_SqliteTests.framework */; };
+		7F52C17352969D1799DF306C /* Pods_GRDB_pod_Sqlite_GRDB_pod_SqliteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAF1967B4EA22658A4BCAD3 /* Pods_GRDB_pod_Sqlite_GRDB_pod_SqliteUITests.framework */; };
 		E436EFA02B01FD5700B0DE36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EF9F2B01FD5700B0DE36 /* AppDelegate.swift */; };
 		E436EFA22B01FD5700B0DE36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EFA12B01FD5700B0DE36 /* SceneDelegate.swift */; };
 		E436EFA42B01FD5700B0DE36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EFA32B01FD5700B0DE36 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		E436EFB72B01FD5A00B0DE36 /* GRDB_pod_SqliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EFB62B01FD5A00B0DE36 /* GRDB_pod_SqliteTests.swift */; };
 		E436EFC12B01FD5A00B0DE36 /* GRDB_pod_SqliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EFC02B01FD5A00B0DE36 /* GRDB_pod_SqliteUITests.swift */; };
 		E436EFC32B01FD5A00B0DE36 /* GRDB_pod_SqliteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EFC22B01FD5A00B0DE36 /* GRDB_pod_SqliteUITestsLaunchTests.swift */; };
+		E9C5BE91915B63DD1E3BAE88 /* Pods_GRDB_pod_Sqlite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C03EDFF707A752D66E5E8C /* Pods_GRDB_pod_Sqlite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E53FC1D7B64695FB146A60E /* Pods_GRDB_pod_SqliteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRDB_pod_SqliteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		627D3C8BA4168C18B3627DC6 /* Pods-GRDB_pod_SqliteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDB_pod_SqliteTests.release.xcconfig"; path = "Target Support Files/Pods-GRDB_pod_SqliteTests/Pods-GRDB_pod_SqliteTests.release.xcconfig"; sourceTree = "<group>"; };
+		68C3B78CA7ADA34D01A5D5FF /* Pods-GRDB_pod_Sqlite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDB_pod_Sqlite.release.xcconfig"; path = "Target Support Files/Pods-GRDB_pod_Sqlite/Pods-GRDB_pod_Sqlite.release.xcconfig"; sourceTree = "<group>"; };
+		7C676269772016214669963A /* Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests.release.xcconfig"; path = "Target Support Files/Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests/Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89C03EDFF707A752D66E5E8C /* Pods_GRDB_pod_Sqlite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRDB_pod_Sqlite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC61D4FEFB6CE44E65AEEA7 /* Pods-GRDB_pod_Sqlite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDB_pod_Sqlite.debug.xcconfig"; path = "Target Support Files/Pods-GRDB_pod_Sqlite/Pods-GRDB_pod_Sqlite.debug.xcconfig"; sourceTree = "<group>"; };
+		E207CD60A49898B033D23147 /* Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests.debug.xcconfig"; path = "Target Support Files/Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests/Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E436EF9C2B01FD5700B0DE36 /* GRDB_pod_Sqlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRDB_pod_Sqlite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E436EF9F2B01FD5700B0DE36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E436EFA12B01FD5700B0DE36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		E436EFBC2B01FD5A00B0DE36 /* GRDB_pod_SqliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRDB_pod_SqliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E436EFC02B01FD5A00B0DE36 /* GRDB_pod_SqliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRDB_pod_SqliteUITests.swift; sourceTree = "<group>"; };
 		E436EFC22B01FD5A00B0DE36 /* GRDB_pod_SqliteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRDB_pod_SqliteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2298B0056E6CA05BB044C5C /* Pods-GRDB_pod_SqliteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDB_pod_SqliteTests.debug.xcconfig"; path = "Target Support Files/Pods-GRDB_pod_SqliteTests/Pods-GRDB_pod_SqliteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBAF1967B4EA22658A4BCAD3 /* Pods_GRDB_pod_Sqlite_GRDB_pod_SqliteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRDB_pod_Sqlite_GRDB_pod_SqliteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C5BE91915B63DD1E3BAE88 /* Pods_GRDB_pod_Sqlite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7C2BFF052E96DB92897FE8 /* Pods_GRDB_pod_SqliteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F52C17352969D1799DF306C /* Pods_GRDB_pod_Sqlite_GRDB_pod_SqliteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C1977F657ECFDA6B13811E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCC61D4FEFB6CE44E65AEEA7 /* Pods-GRDB_pod_Sqlite.debug.xcconfig */,
+				68C3B78CA7ADA34D01A5D5FF /* Pods-GRDB_pod_Sqlite.release.xcconfig */,
+				E207CD60A49898B033D23147 /* Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests.debug.xcconfig */,
+				7C676269772016214669963A /* Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests.release.xcconfig */,
+				F2298B0056E6CA05BB044C5C /* Pods-GRDB_pod_SqliteTests.debug.xcconfig */,
+				627D3C8BA4168C18B3627DC6 /* Pods-GRDB_pod_SqliteTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6232C53B48C95347A2932BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89C03EDFF707A752D66E5E8C /* Pods_GRDB_pod_Sqlite.framework */,
+				FBAF1967B4EA22658A4BCAD3 /* Pods_GRDB_pod_Sqlite_GRDB_pod_SqliteUITests.framework */,
+				3E53FC1D7B64695FB146A60E /* Pods_GRDB_pod_SqliteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E436EF932B01FD5700B0DE36 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				E436EFB52B01FD5A00B0DE36 /* GRDB_pod_SqliteTests */,
 				E436EFBF2B01FD5A00B0DE36 /* GRDB_pod_SqliteUITests */,
 				E436EF9D2B01FD5700B0DE36 /* Products */,
+				5C1977F657ECFDA6B13811E5 /* Pods */,
+				6232C53B48C95347A2932BAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E436EFC62B01FD5A00B0DE36 /* Build configuration list for PBXNativeTarget "GRDB_pod_Sqlite" */;
 			buildPhases = (
+				811AE893F515A6DA2ADD2C75 /* [CP] Check Pods Manifest.lock */,
 				E436EF982B01FD5700B0DE36 /* Sources */,
 				E436EF992B01FD5700B0DE36 /* Frameworks */,
 				E436EF9A2B01FD5700B0DE36 /* Resources */,
+				395E9C97A0D932713875965E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E436EFC92B01FD5A00B0DE36 /* Build configuration list for PBXNativeTarget "GRDB_pod_SqliteTests" */;
 			buildPhases = (
+				436FD60B6F45AAD091F69A6C /* [CP] Check Pods Manifest.lock */,
 				E436EFAE2B01FD5A00B0DE36 /* Sources */,
 				E436EFAF2B01FD5A00B0DE36 /* Frameworks */,
 				E436EFB02B01FD5A00B0DE36 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E436EFCC2B01FD5A00B0DE36 /* Build configuration list for PBXNativeTarget "GRDB_pod_SqliteUITests" */;
 			buildPhases = (
+				06DFA6608E42E3D2DB0A7DDC /* [CP] Check Pods Manifest.lock */,
 				E436EFB82B01FD5A00B0DE36 /* Sources */,
 				E436EFB92B01FD5A00B0DE36 /* Frameworks */,
 				E436EFBA2B01FD5A00B0DE36 /* Resources */,
+				6A8991407378A3FF6BAE6B0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06DFA6608E42E3D2DB0A7DDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		395E9C97A0D932713875965E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRDB_pod_Sqlite/Pods-GRDB_pod_Sqlite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRDB_pod_Sqlite/Pods-GRDB_pod_Sqlite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GRDB_pod_Sqlite/Pods-GRDB_pod_Sqlite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		436FD60B6F45AAD091F69A6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRDB_pod_SqliteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A8991407378A3FF6BAE6B0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests/Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests/Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests/Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		811AE893F515A6DA2ADD2C75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRDB_pod_Sqlite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E436EF982B01FD5700B0DE36 /* Sources */ = {
@@ -437,6 +586,7 @@
 		};
 		E436EFC72B01FD5A00B0DE36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC61D4FEFB6CE44E65AEEA7 /* Pods-GRDB_pod_Sqlite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +615,7 @@
 		};
 		E436EFC82B01FD5A00B0DE36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C3B78CA7ADA34D01A5D5FF /* Pods-GRDB_pod_Sqlite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +644,7 @@
 		};
 		E436EFCA2B01FD5A00B0DE36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2298B0056E6CA05BB044C5C /* Pods-GRDB_pod_SqliteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +665,7 @@
 		};
 		E436EFCB2B01FD5A00B0DE36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627D3C8BA4168C18B3627DC6 /* Pods-GRDB_pod_SqliteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +686,7 @@
 		};
 		E436EFCD2B01FD5A00B0DE36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E207CD60A49898B033D23147 /* Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +705,7 @@
 		};
 		E436EFCE2B01FD5A00B0DE36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C676269772016214669963A /* Pods-GRDB_pod_Sqlite-GRDB_pod_SqliteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

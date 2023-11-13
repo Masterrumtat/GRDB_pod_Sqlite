@@ -4,7 +4,7 @@
 target 'GRDB_pod_Sqlite' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+pod 'GRDB.swift'
   # Pods for GRDB_pod_Sqlite
 
   target 'GRDB_pod_SqliteTests' do
