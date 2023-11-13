@@ -18,6 +18,9 @@
 		E436EFB72B01FD5A00B0DE36 /* GRDB_pod_SqliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EFB62B01FD5A00B0DE36 /* GRDB_pod_SqliteTests.swift */; };
 		E436EFC12B01FD5A00B0DE36 /* GRDB_pod_SqliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EFC02B01FD5A00B0DE36 /* GRDB_pod_SqliteUITests.swift */; };
 		E436EFC32B01FD5A00B0DE36 /* GRDB_pod_SqliteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EFC22B01FD5A00B0DE36 /* GRDB_pod_SqliteUITestsLaunchTests.swift */; };
+		E436EFD02B0210C900B0DE36 /* singupvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EFCF2B0210C900B0DE36 /* singupvc.swift */; };
+		E436EFD22B02112100B0DE36 /* NC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EFD12B02112100B0DE36 /* NC.swift */; };
+		E436EFD42B02116800B0DE36 /* Songmenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EFD32B02116800B0DE36 /* Songmenu.swift */; };
 		E9C5BE91915B63DD1E3BAE88 /* Pods_GRDB_pod_Sqlite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C03EDFF707A752D66E5E8C /* Pods_GRDB_pod_Sqlite.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		E436EFBC2B01FD5A00B0DE36 /* GRDB_pod_SqliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRDB_pod_SqliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E436EFC02B01FD5A00B0DE36 /* GRDB_pod_SqliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRDB_pod_SqliteUITests.swift; sourceTree = "<group>"; };
 		E436EFC22B01FD5A00B0DE36 /* GRDB_pod_SqliteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRDB_pod_SqliteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E436EFCF2B0210C900B0DE36 /* singupvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singupvc.swift; sourceTree = "<group>"; };
+		E436EFD12B02112100B0DE36 /* NC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC.swift; sourceTree = "<group>"; };
+		E436EFD32B02116800B0DE36 /* Songmenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songmenu.swift; sourceTree = "<group>"; };
 		F2298B0056E6CA05BB044C5C /* Pods-GRDB_pod_SqliteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDB_pod_SqliteTests.debug.xcconfig"; path = "Target Support Files/Pods-GRDB_pod_SqliteTests/Pods-GRDB_pod_SqliteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBAF1967B4EA22658A4BCAD3 /* Pods_GRDB_pod_Sqlite_GRDB_pod_SqliteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRDB_pod_Sqlite_GRDB_pod_SqliteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -101,7 +107,6 @@
 				F2298B0056E6CA05BB044C5C /* Pods-GRDB_pod_SqliteTests.debug.xcconfig */,
 				627D3C8BA4168C18B3627DC6 /* Pods-GRDB_pod_SqliteTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +152,9 @@
 				E436EFA82B01FD5900B0DE36 /* Assets.xcassets */,
 				E436EFAA2B01FD5900B0DE36 /* LaunchScreen.storyboard */,
 				E436EFAD2B01FD5900B0DE36 /* Info.plist */,
+				E436EFCF2B0210C900B0DE36 /* singupvc.swift */,
+				E436EFD12B02112100B0DE36 /* NC.swift */,
+				E436EFD32B02116800B0DE36 /* Songmenu.swift */,
 			);
 			path = GRDB_pod_Sqlite;
 			sourceTree = "<group>";
@@ -407,8 +415,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E436EFD02B0210C900B0DE36 /* singupvc.swift in Sources */,
+				E436EFD42B02116800B0DE36 /* Songmenu.swift in Sources */,
 				E436EFA42B01FD5700B0DE36 /* ViewController.swift in Sources */,
 				E436EFA02B01FD5700B0DE36 /* AppDelegate.swift in Sources */,
+				E436EFD22B02112100B0DE36 /* NC.swift in Sources */,
 				E436EFA22B01FD5700B0DE36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
